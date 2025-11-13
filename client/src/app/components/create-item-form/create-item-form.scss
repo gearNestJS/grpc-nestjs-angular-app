@@ -1,0 +1,20 @@
+.form-card,
+.result-card,
+.debug-card {
+  max-width: 500px;
+  margin: 16px auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.submit-button {
+  align-self: flex-start;
+}
